@@ -2,7 +2,7 @@
 layout: workshop
 root: .
 venue: National Bureau of Economic Research
-address: 1050 Massachusetts Ave., Cambridge, MA 02138
+address: 1050 Massachusetts Ave., Cambridge,  2nd floor conference room
 country: United-States
 humandate: Jan 8-9, 2015
 humantime: 9:00 am - 5:00 pm
@@ -10,29 +10,18 @@ startdate: 2015-01-08
 enddate: 2015-01-09
 latlng: 42.369970, -71.113038
 registration: restricted
-instructor: ["Tim Cerino", "Software Carpentry Instructors"]
-helper: ["Software Carpentry Helper"]
-contact: admin@software-carpentry.org
+instructor: ["Tim Cerino", "Additional Software Carpentry Instructors"]
+helper: ["Software Carpentry Helpers"]
+contact: tjc.swc@gmail.com
 #redirect: http://www.3rd.party.workshop.home.page.com
 #eventbrite: 00000000000
-lessons: ['Python', 'Git', 'Bash', 'VM']
+lessons: ['Python', 'Git', 'Bash']
 ---
 <!--
     Edit the values in the parameter block above to be appropriate for your workshop.
     Please use three-letter month names for the 'humandate' field.
 -->
 
-<!-- Remove the block below. -->
-<div align="center">
-  <p><strong><em>
-      This page is a template for workshop home pages.
-      <br/>
-      Please see
-      <a href="//github.com/swcarpentry/bc">github.com/swcarpentry/bc</a>
-      for instructions on how to create
-      a repository for your workshop.
-  </em></strong></p>
-</div>
 
 <!--
     This block includes the Eventbrite registration widget if 'eventbrite' has been set in the header.
@@ -122,23 +111,25 @@ lessons: ['Python', 'Git', 'Bash', 'VM']
   <div class="span6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td><em>10:30</em></td> <td><em>Coffee break</em></td> </tr>
-      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td> <td>Building programs with Python</td> </tr>
-      <tr> <td><em>14:30</em></td> <td><em>Coffee break</em></td> </tr>
-      <tr> <td>16:00</td> <td>Wrap-up</td> </tr>
+      <tr> <td>09:00-10:30</td> <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td><em>10:30-10:45</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td><em>10:45-12:15</em></td> <td>Introduction to Python</td> </tr>
+      <tr> <td>12:15-13:15</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:15-14:45</td> <td>Python Lists, Dictionaries, and Functions</td> </tr>
+      <tr> <td><em>14:45-15:00</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td><em>15:00-16:30</em></td> <td>Reading files with Python</td> </tr>
+      <tr> <td>16:30</td> <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="span6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Version control with Git</td> </tr>
-      <tr> <td><em>10:30</em></td> <td><em>Coffee break</em></td> </tr>
-      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td> <td>Managing data with SQL</td> </tr>
-      <tr> <td><em>14:30</em></td> <td><em>Coffee break</em></td> </tr>
-      <tr> <td>16:00</td> <td>Wrap-up</td> </tr>
+      <tr> <td>9:00-12:00</td> <td>Working with Data in Python and Pandas</td> </tr>
+      <tr> <td>12:00-13:00</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:00-15:00</td> <td>Version control with Git</td> </tr>
+      <tr> <td><em>15:00-15:15</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>15:15-16:30</td> <td>Regular Expressions</td> </tr>
+      <tr> <td>16:30</td> <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -166,8 +157,8 @@ lessons: ['Python', 'Git', 'Bash', 'VM']
   <div class="span6">
     <h3>Programming in Python</h3>
     <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
+      <li>Using libraries including <a href="http://pandas.pydata.org">pandas...</a></li>
+      <li>Working with datasets</li>
       <li>Reading and plotting data</li>
       <li>Creating and using functions</li>
       <li>Loops and conditionals: <code>for</code>, <code>if</code>, <code>else</code>, ...</li>
@@ -176,18 +167,6 @@ lessons: ['Python', 'Git', 'Bash', 'VM']
       <li><a href="novice/ref/03-python.html">Reference...</a></li>
     </ul>
   </div>
-  <div class="span6">
-    <h3>Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals: <code>for</code>, <code>if</code>, <code>else</code></li>
-      <li>Using R from the command line</li>
-      <li><a href="novice/ref/06-R.html">Reference...</a></li>
-    </ul>
-  </div>
-</div>
 
 <div class="row-fluid">
   <div class="span6">
@@ -205,17 +184,15 @@ lessons: ['Python', 'Git', 'Bash', 'VM']
     </ul>
   </div>
   <div class="span6">
-    <h3>Managing Data with SQL</h3>
+    <h3>Regular Expressions</h3>
     <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="novice/ref/04-sql.html">Reference...</a></li>
+      <li>Pattern-matching power tool for character strings/li>
+      <liOperators</li>
+      <li>Mechanics</li>
+      <li>Patterns</li>
+      <li>Grouping and extracting</li>
+      <li>Using from Python and the Shell</li>
+      <li><a href="intermediate/regex/index.html">Reference...</a></li>
     </ul>
   </div>
 </div>
