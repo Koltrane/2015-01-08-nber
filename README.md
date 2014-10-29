@@ -2,3 +2,6 @@
 ===============
 
 NBER Software Carpentry Workshop, January 2015.
+
+* Site repository
+
